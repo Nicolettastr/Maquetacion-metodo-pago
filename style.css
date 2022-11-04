@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    width: 100%;
+    height: 60%;
+}
+
+
+.modal-content{
+    border-radius: 8px;
+    border: 2px solid #d9dad7;
+    margin: 20px;
+}
+
+.modal-header {
+    background: #ececec;
+    border-bottom: 2px solid #d9dad7;
+    padding-left: 8px;
+}
+
+fieldset div {
+    padding: 10px 20px 10px 20px;
+}
+
+.alert {
+    margin: 15px 20px 0px 20px;
+}
+
+.col-6 p {
+    margin-top: 5px;
+}
+
+.method {
+    padding: 8px;
+    background: #c1c0b9;
+    border-radius: 8px;
+    border: 1px solid #c1c0b9;
+}
+
+.method input{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.modal-footer {
+    background: #ececec;
+    border-top: 2px solid #d9dad7;
+    padding-left: 8px;
+    padding: 8px 20px;
+}
+
+.modal-footer button {
+    margin: 5px;
+}
